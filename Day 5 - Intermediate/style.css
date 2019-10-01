@@ -1,0 +1,167 @@
+
+/* ------------ GENERAL ------------- */
+
+*, html { 
+    margin:0;
+}
+
+body {
+	font-family: 'Chivo', sans-serif;
+	margin-bottom: 2%;
+}
+
+
+/* ------------ HEADER ------------- */
+
+header {
+	width: 100%;
+	
+	top: 0;
+}
+
+h1 {
+	font-size: 6vw;
+}
+
+h2 {
+	font-size: 1.7vw;
+}
+
+nav {
+	background-color: #653C3D;
+	width: 100%;
+	height: 3.5vw;
+	color: white;
+	text-transform: uppercase;
+}
+
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	float: left;
+	padding: 0.78vw;
+	font-weight: bold;
+	font-size: 1.5em;
+	margin-left: 0.5em;
+}
+
+li a {
+	text-decoration: none;
+	color: black;
+	display: block;
+}
+
+li a:hover {
+	color: #978483;
+}
+
+
+/* ---------------- MAIN ---------------- */
+
+main {
+	margin-top: 5%;
+	text-align: center;
+}
+
+table {
+	margin-bottom: 3%;
+	border-spacing: 0;
+}
+
+
+figure {
+  display: table;
+}
+
+figure img {
+	display: block;
+	margin-bottom: 2%;
+}
+
+figcaption {
+	width: 90%;
+ 	display: table-caption;
+ 	caption-side: bottom;
+ 	margin-bottom: 10%;
+ 	text-align: left;
+}
+
+h2 > p {
+	padding-left: 5vw;
+}
+
+/* --------------- FOOTER ---------------- */
+
+footer {
+	text-align: center;
+}
+
+hr {
+	border-top: 8px solid #978483;
+	margin-bottom: 1.5%;
+}
+
+
+/* -------------- All classes -------------- */
+
+
+.intro { 
+	background-color: #EDEDED;
+	width:100%;
+	height: 150px;
+}
+
+.intro img { /* same as before */
+	width: auto;
+	height: 120px;
+	position: relative;
+	right: 35px;
+	float: left;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.intro h2 {
+	position: relative;
+	top: 63px;
+	right: 60px;
+}
+
+
+/* --------------- All IDs --------------- */
+
+
+#hero {
+  padding: 10px;
+  width: 60vw;
+  padding-left: 22.5vw;
+
+
+}
+
+#hero h1 {
+	text-align: center;
+	background-color: white;
+}
+
+
+#overview {
+	background-color: #978483;
+	width: 100%
+	height: 3.5vw;
+	color: white;
+	text-transform: uppercase;
+	padding: 0.78vw;
+	font-weight: bold;
+	font-size: 1.5em;
+	margin-top: 4%;
+	margin-bottom: 2%;
+}
+
+
+/* -------------- All done! :) ---------------- */
